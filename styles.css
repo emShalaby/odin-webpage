@@ -76,3 +76,39 @@ button{
     font-weight: 600;
     height: 30px;
 }
+
+.c3{
+    text-align: center;
+    padding: 20px;
+}
+
+.c3-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+}
+
+.icon{
+    border: solid 2px #3882F6;
+    height: 120px;
+    width: 135px;
+}
+.c3-icons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 15px;
+}
+
+.c3-subtext ul{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+li.subtext{
+    width: 135px;
+    margin-top: 5px;
+}
