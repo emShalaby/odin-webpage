@@ -112,3 +112,23 @@ li.subtext{
     width: 135px;
     margin-top: 5px;
 }
+
+.c4{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 20px;
+    text-align: left;
+}
+
+.quote{
+    font-size: 26px;
+    color: #1F2937;
+    max-width: 650px;
+    align-self: center;
+    margin-left: 440px;
+}
+p.speaker{
+    align-self: flex-end;
+    font-weight: 800;
+    color: #1F2937;
+}
