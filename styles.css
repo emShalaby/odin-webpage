@@ -20,7 +20,7 @@ ul.header-links{
 }
 
 h1{
-    font-size: 48px;
+    font-size: 36px;
     color: #f9faf8;
 
 }
@@ -31,7 +31,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px;
+    padding: 10px 300px;
     background-color: #1F2937;
     
 }
@@ -44,7 +44,7 @@ h1{
 
 .c2{
     display: flex;
-    padding: 30px 200px;
+    padding: 30px 300px;
 
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ h1{
 div.header-text{
     display: flex;
     flex-direction: column;
-    width: 400px; 
+    width: 350px; 
     min-height: 200px;
     gap: 8px;
 
@@ -80,10 +80,11 @@ button{
 .c3{
     text-align: center;
     padding: 20px;
+    margin-bottom: 10px;
 }
 
 .c3-header{
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 800;
     color: #1F2937;
 
@@ -91,7 +92,7 @@ button{
 
 .icon{
     border: solid 2px #3882F6;
-    height: 120px;
+    height: 100px;
     width: 135px;
 }
 .c3-icons ul{
@@ -131,4 +132,33 @@ p.speaker{
     align-self: flex-end;
     font-weight: 800;
     color: #1F2937;
+}
+
+.c5{
+    background-color: #3882F6;
+    align-self: center;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 200px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.c5-text{
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 16px;
+}
+.signup-text{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: #f9faf8;
 }
